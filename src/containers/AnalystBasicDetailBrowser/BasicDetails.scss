@@ -1,0 +1,100 @@
+.boxInvisible:focus {
+  outline: none;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 20px;
+}
+input {
+  font-size: 14px;
+  padding: 10px 10px 1px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+input:focus {
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+
+/* LABEL ======================================= */
+// label {
+//   color: #999;
+//   font-size: 14px;
+//   font-weight: normal;
+//   position: absolute;
+//   pointer-events: none;
+//   left: 5px;
+//   top: 10px;
+//   transition: 0.2s ease all;
+//   -moz-transition: 0.2s ease all;
+//   -webkit-transition: 0.2s ease all;
+// }
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+  font-size: 10px;
+  color: #696969;
+}
+
+/* BOTTOM BARS ================================= */
+
+/* active state */
+
+/* HIGHLIGHTER ================================== */
+
+/* ANIMATIONS ================ */
+
+/* File Input ================ */
+.certificateInput {
+  position: relative;
+  border-bottom: 1px solid #949494;
+  margin-top: 3px;
+  height: 1rem;
+}
+.certificateInput label {
+  //background: #fff;
+  padding: 5px 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 0.9em;
+  transition: all 0.4s;
+  position: absolute;
+  top: 5px;
+  left: -17px;
+}
+.certificateInput input {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  opacity: 0.01;
+  width: max-content;
+}
+.certificateInput .icon {
+  color: rgb(41, 98, 255);
+  position: absolute;
+  top: 6px;
+  right: 0px;
+}
+
+.certificateInput .counter {
+  background-color: rgb(41, 98, 255);
+  position: absolute;
+  top: 6px;
+  right: 23px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  //background: #000
+}

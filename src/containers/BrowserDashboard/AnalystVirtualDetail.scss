@@ -1,0 +1,135 @@
+@import '../../index.scss';
+
+.check svg {
+  overflow: unset !important;
+}
+
+// placeholder css
+
+.loader {
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: 472px;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.animated-bg {
+  height: 200px;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.bg-mask {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: placeHolderShimmer;
+  background: rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 8%, rgba(0, 0, 0, 0.2) 18%, rgba(0, 0, 0, 0.1) 33%);
+  background-size: 800px 104px;
+}
+
+.bg-mask.a {
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 80%;
+}
+
+.bg-mask.b {
+  bottom: 0;
+  left: 40px;
+  width: 20px;
+  height: 90%;
+}
+.bg-mask.c {
+  bottom: 0;
+  left: 80px;
+  width: 20px;
+  height: 40%;
+}
+.bg-mask.d {
+  bottom: 0;
+  left: 120px;
+  width: 20px;
+  height: 70%;
+}
+.bg-mask.e {
+  bottom: 0;
+  left: 160px;
+  width: 20px;
+  height: 40%;
+}
+
+.animated-bg .text {
+  position: absolute;
+  right: 40%;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+}
+
+// pie chart placeholder
+
+.animated-bg-pie {
+  height: 200px;
+  margin-top: 20%;
+  margin-left: 40%;
+  position: relative;
+}
+
+.animated-bg-pie .outer-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: placeHolderShimmer;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 8%, rgba(0, 0, 0, 0.2) 18%, rgba(0, 0, 0, 0.1) 33%);
+  background-size: 800px 104px;
+}
+.animated-bg-pie .inner-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  display: block;
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.animated-bg-pie .text {
+  position: absolute;
+  top: 12%;
+  right: 40%;
+  text-align: center;
+  width: 80%;
+}
+
+.MuiBox-root {
+  padding: 2rem 0 !important;
+}

@@ -1,0 +1,13 @@
+.menuHover {
+    border-bottom: 3px solid transparent;
+    color: gray;
+}
+
+.menuHover:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.menuHover:active() {
+    color: black;
+}

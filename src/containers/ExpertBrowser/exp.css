@@ -1,0 +1,16 @@
+.dashboardButton {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: transparent;
+    border: 0;
+    color: rgb(88, 88, 88);
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom: 3px solid transparent;
+}
+
+.dashboardButton:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}

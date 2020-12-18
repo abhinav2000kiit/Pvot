@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.tabHeading {
+  font-size: 0.8rem !important;
+}
+
+.MuiDialogContent-root {
+  padding: 1rem !important;
+  font-size: 1.15rem;
+}
+
+.disabledSubmitButton {
+  width: 224px;
+  height: 36px;
+  font-weight: normal;
+  text-transform: none;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+.disabledSubmitButton:focus {
+  box-shadow: none;
+}
+
+.Mui-disabled {
+  opacity: 0.8 !important;
+}

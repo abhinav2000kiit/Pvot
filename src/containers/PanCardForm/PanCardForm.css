@@ -1,0 +1,13 @@
+#inputs-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pan-input{
+  text-align: center;
+  width: 16px;
+  margin-left: 8px;
+  text-align: center;
+  font-size: 14px;
+}

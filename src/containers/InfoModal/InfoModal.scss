@@ -1,0 +1,56 @@
+@import '../../index.scss';
+.modalFab {
+  position: fixed !important;
+  bottom: 4rem !important;
+  right: 1rem !important;
+}
+
+.modalView {
+  height: 80%;
+  width: 90%;
+  box-shadow: lighten($color: #000000, $amount: 50);
+}
+
+.chatbox {
+  height: 80%;
+  overflow: scroll;
+}
+
+.chatheader {
+  height: 10%;
+}
+
+.chatbuttons {
+  height: 10%;
+}
+
+.question_text {
+  width: fit-content;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.rounded-left {
+  border-top-left-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
+}
+
+.rounded-right {
+  border-top-right-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.rounded-md {
+  border-width: medium;
+  border-radius: 0.5rem !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}

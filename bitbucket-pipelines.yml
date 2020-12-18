@@ -1,0 +1,13 @@
+image: nikolaik/python-nodejs
+pipelines:
+ branches:
+   development:
+     - step:
+         script:
+          - apt-get -y update
+          - apt-get -y install python-setuptools
+          - easy_install pip
+          - pip install awscli
+          - npm install
+          - npm run build
+          - npm run deploy

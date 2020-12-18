@@ -1,0 +1,281 @@
+@import '../../index.scss';
+// @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+$main-blue: #2962ff;
+$secondary-blue: #98b4fc;
+$main-black: #212121;
+$secondary-black: #616161;
+
+$main-font: 'Rubik', sans-serif;
+
+.css-5xmhn {
+  width: 19rem !important;
+  height: 19rem !important;
+}
+
+.controls {
+  width: auto;
+  height: fit-content;
+  align-items: center;
+}
+
+.MuiDialogContent-root {
+  padding: 0 !important;
+}
+
+.MuiButton-root {
+  min-width: 0 !important;
+}
+
+.mainArea {
+  position: relative;
+  height: 92vh;
+  overflow: auto;
+}
+
+.topSection {
+  height: 5vh;
+}
+
+.analyst-profile-header {
+  font-family: $main-font !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  color: $main-blue;
+}
+
+.logoutText {
+  font-family: $main-font !important;
+  font-weight: 300 !important;
+  font-size: 0.875rem !important;
+  color: $main-black;
+}
+
+// Section 1: Image, Name, Follower and Subscriber
+
+.ImageSection {
+  height: 30vh;
+}
+
+.profileImageSection {
+  height: 10vh;
+}
+
+.profile_image {
+  padding: 1rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.profile_image input[type='file'] {
+  display: none;
+}
+
+.cropImageDialog {
+  margin: 0 !important;
+  min-height: 50rem !important;
+}
+
+.analyst-image {
+  width: 5.2rem !important;
+  height: 5.2rem !important;
+  // border: solid 0.2rem $secondary-black;
+}
+
+.crop-container {
+  width: auto;
+  height: 20rem;
+  position: relative;
+}
+
+.rotationIcon {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.slider {
+  padding: 22px 0px;
+}
+
+.fullNameSection {
+  height: 8vh;
+}
+
+// .fullName{
+//   margin-top: 2rem !important;
+//   margin-bottom: auto !important;
+// }
+
+.fullName {
+  margin-top: 1rem !important;
+  margin-bottom: auto !important;
+  font-family: $main-font !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  text-align: center;
+  border: 0;
+}
+
+.fullName:focus {
+  outline: none;
+}
+
+.followerSection {
+  height: 8vh;
+}
+
+.followerCount {
+  font-family: $main-font !important;
+  font-weight: regular !important;
+  font-size: 1.25rem !important;
+  color: $main-blue !important;
+}
+
+.followereTitle {
+  font-family: $main-font !important;
+  font-size: 1rem !important;
+  font-weight: regular !important;
+  color: $main-black !important;
+}
+
+.followerSubscriberPartition {
+  border-right: 0.1rem solid $main-black;
+  height: 100%;
+  width: 4px;
+  margin-right: 0;
+}
+
+// Section 2: Personal Details, Portfolio Allocation, Subscription Plan
+
+.profileButtonArea {
+  width: 80vw;
+  height: 37vh;
+}
+
+.fullProfileButton {
+  padding-top: 0.3rem !important;
+}
+
+.buttonTextSection {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.profileButtonInfoText {
+  font-family: $main-font !important;
+  font-weight: 300 !important;
+  font-size: 0.875rem !important;
+  padding: 0 !important;
+  width: 100%;
+  color: $main-black !important;
+}
+
+.profileButton {
+  border-color: $main-blue !important;
+}
+
+.profileDisabledButton {
+  border-color: $secondary-black !important;
+  color: $secondary-black !important;
+}
+
+.tikIcon {
+  font-size: 1rem !important;
+  color: $secondary-blue !important;
+}
+
+.buttonText {
+  font-family: $main-font !important;
+  font-weight: 400 !important;
+  color: $main-blue !important;
+  padding: 0.3rem 0 !important;
+}
+
+.DisabledButtonText {
+  font-family: $main-font !important;
+  font-weight: 400 !important;
+  padding: 0.3rem 0 !important;
+}
+
+// Section 3: User Manual Section
+.userManualSection {
+  height: 10vh;
+}
+
+.manualButton {
+  color: $main-blue;
+  font-size: 1rem;
+}
+
+.manualButton:focus {
+  color: $main-blue;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+// Section 4: FAQ, About and Privacy Policy
+.bottomSection {
+  height: 2vh;
+}
+
+.bottomButton {
+  font-family: $main-font !important;
+  font-weight: 400 !important;
+  padding: 0 0.8rem;
+  color: $main-blue;
+  font-size: 0.875rem !important;
+}
+
+.bottomVerticalLine {
+  border-left: 0.1rem solid $main-black;
+  height: 100%;
+}
+
+.list-group {
+  width: 100%;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+}
+
+.rounded-lg {
+  border-radius: 0.8rem !important;
+}
+
+// previous design
+
+.analyst-profile-tabs {
+  font-family: $font-family-regular;
+  color: $secondary-color;
+  font-weight: $font-weight-light;
+  cursor: pointer;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: 15px;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 410px) {
+    font-size: 15px;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 411px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}

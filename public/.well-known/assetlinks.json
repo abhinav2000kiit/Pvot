@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "in.pvot",
+               "sha256_cert_fingerprints": ["6E:E1:74:F2:24:62:01:3E:9A:AB:FF:60:A8:CA:79:28:36:E9:36:BF:78:D8:55:75:C7:3E:EB:70:2E:E0:36:08"] }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "in.pvot",
+               "sha256_cert_fingerprints": ["47:84:78:55:F1:C9:A6:83:A4:99:0A:3E:EF:C1:50:7A:20:BC:47:EA:0B:42:B3:FC:C5:56:6E:E5:54:18:E8:EE"] }
+}]

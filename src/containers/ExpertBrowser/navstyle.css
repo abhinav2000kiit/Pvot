@@ -1,0 +1,28 @@
+.navs {
+  border: 1px solid #fff !important;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+}
+
+.navs:hover {
+  text-decoration: none !important;
+  color: #565ebf !important;
+}
+
+.navs:active {
+  text-decoration: none !important;
+  color: #565ebf !important;
+}
+
+/* code for deactivating the numder inc dec symbolin input field */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

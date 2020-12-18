@@ -1,0 +1,12 @@
+@import '../../index.scss';
+
+.MuiSelect-select {
+  font-size: 1rem !important;
+  line-height: 1rem !important;
+  padding-top: 10px !important;
+  padding-left: 2px !important;
+}
+
+.MuiSelect-select:focus {
+  background-color: #fff !important;
+}

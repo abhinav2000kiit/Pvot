@@ -1,0 +1,28 @@
+{
+  "short_name": "Pvot",
+  "gcm_sender_id": "1082536758141",
+  "name": "Pvot",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "96x96 64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "logo@2x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo@3x.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": ".",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

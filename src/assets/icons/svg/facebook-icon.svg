@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="facebook-icon" width="35.846" height="35.846" viewBox="0 0 35.846 35.846">
+    <defs>
+        <style>
+            .cls-1{fill:#485a96}.cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="Path_27" d="M33.868 35.847a1.978 1.978 0 0 0 1.978-1.978V1.978A1.978 1.978 0 0 0 33.868 0H1.978A1.978 1.978 0 0 0 0 1.978v31.89a1.978 1.978 0 0 0 1.978 1.978h31.89z" class="cls-1" data-name="Path 27"/>
+    <path id="Path_28" d="M118.032 70.743V56.861h4.659l.7-5.41h-5.357V48c0-1.566.435-2.634 2.681-2.634h2.865v-4.843a38.337 38.337 0 0 0-4.174-.213c-4.13 0-6.958 2.521-6.958 7.151v3.99h-4.671v5.41h4.671v13.882h5.587z" class="cls-2" data-name="Path 28" transform="translate(-93.299 -34.896)"/>
+</svg>

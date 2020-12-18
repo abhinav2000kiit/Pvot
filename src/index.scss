@@ -1,0 +1,1909 @@
+$font-size-6-xl: 60px;
+$font-size-6-lg: 58px;
+$font-size-6-md: 56px;
+$font-size-6-sm: 54px;
+$font-size-6-xs: 52px;
+$font-size-5-xl: 50px;
+$font-size-5-lg: 48px;
+$font-size-5-md: 46px;
+$font-size-5-sm: 44px;
+$font-size-5-xs: 42px;
+$font-size-4-xl: 40px;
+$font-size-4-lg: 38px;
+$font-size-4-md: 36px;
+$font-size-4-sm: 34px;
+$font-size-4-xs: 32px;
+$font-size-3-xl: 30px;
+$font-size-3-lg: 28px;
+$font-size-3-md: 26px;
+$font-size-3-sm: 24px;
+$font-size-3-xs: 22px;
+$font-size-2-xl: 20px;
+$font-size-2-lg: 18px;
+$font-size-2-md: 16px;
+$font-size-2-sm: 14px;
+$font-size-2-xs: 12px;
+$font-size-1-xl: 10px;
+$font-size-1-lg: 8px;
+$font-size-1-md: 6px;
+$font-size-1-sm: 4px;
+$font-size-1-xs: 2px;
+
+$margin-top-6-xl: 60px;
+$margin-top-6-lg: 58px;
+$margin-top-6-md: 56px;
+$margin-top-6-sm: 54px;
+$margin-top-6-xs: 52px;
+$margin-top-5-xl: 50px;
+$margin-top-5-lg: 48px;
+$margin-top-5-md: 46px;
+$margin-top-5-sm: 44px;
+$margin-top-5-xs: 42px;
+$margin-top-4-xl: 40px;
+$margin-top-4-lg: 38px;
+$margin-top-4-md: 36px;
+$margin-top-4-sm: 34px;
+$margin-top-4-xs: 32px;
+$margin-top-3-xl: 30px;
+$margin-top-3-lg: 28px;
+$margin-top-3-md: 26px;
+$margin-top-3-sm: 24px;
+$margin-top-3-xs: 22px;
+$margin-top-2-xl: 20px;
+$margin-top-2-lg: 18px;
+$margin-top-2-md: 16px;
+$margin-top-2-sm: 14px;
+$margin-top-2-xs: 12px;
+$margin-top-1-xl: 10px;
+$margin-top-1-lg: 8px;
+$margin-top-1-md: 6px;
+$margin-top-1-sm: 4px;
+$margin-top-1-xs: 2px;
+$margin-top-0: 0px;
+
+$margin-bottom-6-xl: 60px;
+$margin-bottom-6-lg: 58px;
+$margin-bottom-6-md: 56px;
+$margin-bottom-6-sm: 54px;
+$margin-bottom-6-xs: 52px;
+$margin-bottom-5-xl: 50px;
+$margin-bottom-5-lg: 48px;
+$margin-bottom-5-md: 46px;
+$margin-bottom-5-sm: 44px;
+$margin-bottom-5-xs: 42px;
+$margin-bottom-4-xl: 40px;
+$margin-bottom-4-lg: 38px;
+$margin-bottom-4-md: 36px;
+$margin-bottom-4-sm: 34px;
+$margin-bottom-4-xs: 32px;
+$margin-bottom-3-xl: 30px;
+$margin-bottom-3-lg: 28px;
+$margin-bottom-3-md: 26px;
+$margin-bottom-3-sm: 24px;
+$margin-bottom-3-xs: 22px;
+$margin-bottom-2-xl: 20px;
+$margin-bottom-2-lg: 18px;
+$margin-bottom-2-md: 16px;
+$margin-bottom-2-sm: 14px;
+$margin-bottom-2-xs: 12px;
+$margin-bottom-1-xl: 10px;
+$margin-bottom-1-lg: 8px;
+$margin-bottom-1-md: 6px;
+$margin-bottom-1-sm: 4px;
+$margin-bottom-1-xs: 2px;
+$margin-bottom-0: 0px;
+
+$primary-color: #2962ff;
+$secondary-color: #212121;
+$non-active-color: #616161;
+$line-color: #b9b9b9;
+$success-color: #5cb85c;
+$danger-color: #d9534f;
+$warning-colr: #f0ad4e;
+$white-color: #ffffff;
+$white-color-disabled: #ffff;
+$primary-disabled: #007bff;
+
+@font-face {
+  font-family: Halimun;
+  src: url('../src//assets/fonts/Halimun.ttf') format('truetype');
+}
+
+$font-family-regular: Rubik;
+$font-family-cursive: myFirstFont;
+
+$font-weight-bold: 600;
+$font-weight-normal: 500;
+$font-weight-light: 400;
+$font-weight-extra-light: 300;
+
+$font-style-regular: normal;
+$font-stretch-regular: normal;
+$letter-spacing-regular: normal;
+
+$line-height-xl: 2;
+$line-height-lg: 1.8;
+$line-height-md: 1.6;
+$line-height-sm: 1.4;
+$line-height-xs: 1.2;
+
+html {
+  @media screen and (max-width: 240px) {
+    display: none;
+  }
+}
+
+// disable selection of text in app
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.parent {
+  height: 100vh;
+  max-width: 100%;
+  //  padding-right: 30px;
+  //  padding-left: 30px;
+}
+
+.center-col-special {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.center-col-space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.center-col-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.center-col-space-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  //  text-align: center;
+}
+
+.center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.row-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.center-row-around {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.center-row-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.MuiSlider-thumb {
+  width: 22px !important;
+  height: 22px !important;
+  display: flex;
+  outline: 0;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: -10px !important;
+  transition: box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  align-items: center;
+  margin-left: -6px;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: currentColor;
+}
+.MuiButton-containedPrimary {
+  background-color: $primary-color !important;
+}
+
+// .MuiInput-underline:hover:not(.Mui-disabled):before {
+//     border-bottom: 1px solid $non-active-color;
+// }
+
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+
+@mixin all {
+  font-family: $font-family-regular;
+  font-weight: $font-weight-extra-light;
+  font-style: $font-style-regular;
+  font-stretch: $font-stretch-regular;
+  letter-spacing: $letter-spacing-regular;
+}
+
+// .MuiInputBase-input{
+//    font-size: 14px;
+//   font-family: $font-family-regular !important;
+//     font-weight: $font-weight-normal !important;
+//     font-style: $font-style-regular !important;
+//     font-stretch: $font-stretch-regular !important;
+//     letter-spacing: $letter-spacing-regular !important;
+//     color: $secondary-color !important;
+//      @media screen and (min-width: 0px) and (max-width: 360px) {
+//         font-size: $font-size-2-md !important;
+//         line-height: $line-height-sm !important;
+//         padding: 6px 0px 10px !important;
+//      }
+//      @media screen and (min-width: 361px) and (max-width: 576px) {
+//         font-size: $font-size-2-lg !important;
+//         line-height: $line-height-sm !important;
+//         padding: 8px 0px 10px !important;
+//      }
+//      @media screen and (min-width: 577px) and (max-width: 768px) {
+//         font-size: $font-size-2-xl !important;
+//         line-height: $line-height-md !important;
+//         padding: 10px 0px 10px !important;
+//      }
+//      @media screen and (min-width: 767px) and (max-width: 992px) {
+//         font-size: $font-size-3-xs !important;
+//         line-height: $line-height-lg !important;
+//         padding: 12px 0px 10px !important;
+//      }
+//      @media screen and (min-width: 993px) and (max-width: 1200px) {
+//         font-size: $font-size-3-sm !important;
+//         line-height: $line-height-xl !important;
+//         padding: 14px 0px 10px !important;
+//      }
+//      @media screen and (min-width: 1200px) {
+//         font-size: $font-size-3-md !important;
+//         line-height: $line-height-xl !important;
+//         padding: 16px 0px 10px !important;
+//      }
+// }
+
+// .MuiFormLabel-root {
+//     font-family: $font-family-regular !important;
+//     font-weight: $font-weight-extra-light !important;
+//     font-style: $font-style-regular !important;
+//     font-stretch: $font-stretch-regular !important;
+//     letter-spacing: $letter-spacing-regular !important;
+//     // color: $non-active-color !important;
+//      @media screen and (min-width: 0px) and (max-width: 360px) {
+//         font-size: $font-size-2-md !important;
+//         line-height: $line-height-sm !important;
+//      }
+//      @media screen and (min-width: 361px) and (max-width: 576px) {
+//         font-size: $font-size-2-lg !important;
+//         line-height: $line-height-sm !important;
+//      }
+//      @media screen and (min-width: 577px) and (max-width: 768px) {
+//         font-size: $font-size-2-xl !important;
+//         line-height: $line-height-md !important;
+//      }
+//      @media screen and (min-width: 767px) and (max-width: 992px) {
+//         font-size: $font-size-3-xs !important;
+//         line-height: $line-height-lg !important;
+//      }
+//      @media screen and (min-width: 993px) and (max-width: 1200px) {
+//         font-size: $font-size-3-sm !important;
+//         line-height: $line-height-xl !important;
+//      }
+//      @media screen and (min-width: 1200px) {
+//         font-size: $font-size-3-md !important;
+//         line-height: $line-height-xl !important;
+//      }
+// }
+
+button:focus {
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+.MuiFormControl-root {
+  width: 100% !important;
+}
+
+.MuiInputLabel-formControl {
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    left: 0px !important;
+    top: -22px !important;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    left: 0px !important;
+    top: -20px !important;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    left: 0px !important;
+    top: -18px !important;
+  }
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    left: 0px !important;
+    top: -16px !important;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    left: 0px !important;
+    top: -14px !important;
+  }
+  @media screen and (min-width: 1200px) {
+    left: 0px !important;
+    top: -14px !important;
+  }
+}
+
+.MuiInputBase-input {
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    margin-left: 0px !important;
+    margin-top: -18px !important;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    margin-left: 0px !important;
+    margin-top: -16px !important;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    margin-left: 0px !important;
+    margin-top: -14px !important;
+  }
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    margin-left: 0px !important;
+    margin-top: -12px !important;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0px !important;
+    margin-top: -10px !important;
+  }
+}
+// check below -
+
+.MuiButtonBase-root {
+  //  top: -8px !important;
+}
+
+.MuiButton-textPrimary {
+  color: $primary-color !important;
+}
+
+.variable-margin-top {
+  @media screen and (min-width: 0px) and (max-width: 340px) {
+    margin-top: $margin-top-3-xl;
+  }
+  @media screen and (min-width: 341px) and (max-width: 576px) {
+    margin-top: $margin-top-5-xs;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    margin-top: $margin-top-5-sm;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    margin-top: $margin-top-5-md;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    margin-top: $margin-top-5-lg;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: $margin-top-5-xl;
+  }
+}
+
+.variable-margin-bottom {
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    margin-bottom: $margin-bottom-5-xl;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    margin-bottom: $margin-bottom-6-xs;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    margin-bottom: $margin-bottom-6-sm;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    margin-bottom: $margin-bottom-6-md;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    margin-bottom: $margin-bottom-6-lg;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: $margin-bottom-6-xl;
+  }
+}
+
+/*SignIn*/
+
+@mixin signin {
+  font-family: $font-family-regular;
+  //  font-weight: $font-weight-extra-light;
+  font-style: $font-style-regular;
+  font-stretch: $font-stretch-regular;
+  letter-spacing: $letter-spacing-regular;
+}
+
+@mixin pvot {
+  //  font-family: $font-family-cursive;
+  font-family: Halimun;
+  //  font-weight: $font-weight-extra-light;
+  font-style: $font-style-regular;
+  font-stretch: $font-stretch-regular;
+  letter-spacing: $letter-spacing-regular;
+}
+
+.signin-header {
+  @include signin;
+  color: $primary-color;
+  font-weight: $font-weight-extra-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-lg;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-xl;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-4-xs;
+    line-height: $line-height-xl;
+  }
+}
+
+.signin-sub-heading {
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-extra-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-lg;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-xl;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-4-xs;
+    line-height: $line-height-xl;
+  }
+}
+
+.forgot-sub-heading {
+  color: $secondary-color;
+  font-weight: $font-weight-extra-light;
+  font-family: $font-family-regular;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-3-lg;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-lg;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-xl;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-4-xs;
+    line-height: $line-height-xl;
+  }
+}
+.signin-or {
+  @include signin;
+  color: $non-active-color;
+  font-weight: $font-weight-extra-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-lg;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-xl;
+    line-height: $line-height-xl;
+  }
+}
+
+.line {
+  width: inherit;
+  border: 0.5px solid $line-color;
+}
+
+.signin-google {
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.signin-facebook {
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.signin-span-not-a-member {
+  display: inline-block;
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.signin-span-sign-up {
+  display: inline-block;
+  padding-left: 10px;
+  cursor: pointer;
+  @include signin;
+  color: $primary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.signin-forgot-password {
+  cursor: pointer;
+  @include signin;
+  color: $non-active-color;
+  font-weight: $font-weight-light;
+  margin-bottom: 15px;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+}
+
+.right-all-no-justify {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.left-all-no-justify {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input-helper {
+  color: gray;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.email {
+  position: absolute;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    top: 4px;
+    height: 18px;
+    width: 16px;
+    left: 10px;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    top: 8px;
+    height: 20px;
+    width: 18px;
+    left: 10px;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    top: 12px;
+    height: 22px;
+    width: 20px;
+    left: 14px;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    top: 16px;
+    height: 24px;
+    width: 22px;
+    left: 14px;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    top: 20px;
+    height: 26px;
+    width: 24px;
+    left: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: 20px;
+    height: 26px;
+    width: 24px;
+    left: 14px;
+  }
+}
+.sigin-icon {
+  padding: 1px;
+  margin-bottom: -50px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+.sigin-input {
+  padding-left: 50px;
+}
+.signup-text {
+  font-family: $font-family-regular;
+  color: #bdbdbd;
+  float: right;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-xs;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-2-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-2-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-xs;
+  }
+}
+.show-hide {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  cursor: pointer;
+}
+
+.min-8-characters {
+  cursor: pointer;
+  @include signin;
+  color: $non-active-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-xl;
+  }
+}
+.name-text {
+  text-align: center;
+}
+.min-8-characters-black {
+  cursor: pointer;
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-xl;
+  }
+}
+
+.signin-forgot-password-prime-color {
+  cursor: pointer;
+  @include signin;
+  color: $primary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.special-otp {
+  .MuiInputBase-input {
+    text-align: center !important;
+    margin-left: 0px !important;
+  }
+}
+
+.center-col-special-get-started {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.green-tick {
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    width: 70px;
+    height: 70px;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    width: 80px;
+    height: 80px;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    width: 90px;
+    height: 90px;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    width: 100px;
+    height: 100px;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    width: 110px;
+    height: 110px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+.fixed-margin-top {
+  margin-top: 80px;
+}
+
+.icon-gray {
+  .MuiInput-underline:after {
+    border-bottom: 1px solid $non-active-color !important;
+  }
+  .MuiFormLabel-root.Mui-focused {
+    color: $non-active-color !important;
+  }
+}
+
+.icon-danger {
+  .MuiInputBase-input {
+    caret-color: $danger-color !important;
+  }
+  .MuiInput-underline:after {
+    border-bottom: 2px solid $danger-color !important;
+  }
+  .MuiFormLabel-root {
+    color: $danger-color !important;
+  }
+  .MuiFormLabel-root.Mui-focused {
+    color: $danger-color !important;
+  }
+}
+.error-text {
+  color: #f44336;
+  font-size: 0.75rem;
+  margin-left: 10px;
+}
+.icon-blue {
+  .MuiInputBase-input {
+    caret-color: $success-color !important;
+  }
+  .MuiInput-underline:after {
+    border-bottom: 2px solid $success-color !important;
+  }
+  .MuiFormLabel-root.Mui-focused {
+    color: $success-color !important;
+  }
+}
+
+.icon-blue {
+  .MuiInputBase-input {
+    caret-color: $primary-color !important;
+  }
+  .MuiInput-underline:after {
+    border-bottom: 2px solid $primary-color !important;
+  }
+  .MuiFormLabel-root.Mui-focused {
+    color: $primary-color !important;
+  }
+}
+
+.danger-text {
+  color: $danger-color !important;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    margin-left: 10px;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    margin-left: 10px;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    margin-left: 14px;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    margin-left: 14px;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    margin-left: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 14px;
+  }
+}
+
+.success-text {
+  color: $success-color !important;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    margin-left: 10px;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    margin-left: 10px;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    margin-left: 14px;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    margin-left: 14px;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    margin-left: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 14px;
+  }
+}
+
+.pvot-header {
+  @include pvot;
+  color: $primary-color;
+  font-weight: $font-weight-extra-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-5-xl;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-6-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-6-sm;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-6-md;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-6-lg;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-6-xl;
+    line-height: $line-height-xl;
+  }
+}
+
+.pvot-sub-heading {
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: xx-large;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: xx-large;
+    line-height: $line-height-xl;
+  }
+}
+
+.pvot-header-small {
+  @include pvot;
+  color: $primary-color;
+  font-weight: $font-weight-normal;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-5-sm;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-5-md;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-5-lg;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-5-xl;
+    line-height: $line-height-xl;
+  }
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.user-analyst-image {
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    height: 150px;
+    padding: 20px;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    height: 200px;
+    padding: 25px;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    height: 250px;
+    padding: 30px;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    height: 300px;
+    padding: 35px;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    height: 350px;
+    padding: 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 400px;
+    padding: 45px;
+  }
+}
+
+.shrink {
+  transform: scale(0.9);
+}
+
+.user-on-board-image {
+  height: auto;
+  width: inherit;
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: $primary-color !important;
+}
+
+.right-arrow-blue {
+  position: relative;
+  top: 28px;
+  width: 18px;
+  color: $primary-color;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.right-arrow-white {
+  position: relative;
+  top: 28px;
+  width: 18px;
+  color: $white-color;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.free-circle {
+  .MuiCircularProgress-svg {
+    cursor: pointer;
+    background-color: $primary-color;
+    border-radius: 50%;
+    box-shadow: 0 0 9px 3px #f7f7f7;
+  }
+}
+
+.MuiCircularProgress-svg {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 0 9px 3px #f7f7f7;
+}
+
+.carousel-indicators li {
+  background-color: $primary-color;
+}
+
+/*! Flickity v2.1.2
+https://flickity.metafizzy.co
+---------------------------------------------- */
+
+.flickity-enabled {
+  position: relative;
+}
+
+.flickity-enabled:focus {
+  outline: none;
+}
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/* ---- flickity-button ---- */
+
+.flickity-button {
+  position: absolute;
+  background: transparent;
+  border: none;
+  color: #333;
+}
+
+.flickity-button:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+.flickity-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #19f;
+}
+
+.flickity-button:active {
+  opacity: 0.6;
+}
+
+.flickity-button:disabled {
+  opacity: 0.65;
+  cursor: auto;
+  /* prevent disabled button from capturing pointer up event. #716 */
+  pointer-events: none;
+}
+
+.flickity-button-icon {
+  fill: $primary-color;
+}
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button {
+  top: 50%;
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  /* vertically center */
+  transform: translateY(-50%);
+}
+
+.flickity-prev-next-button.previous {
+  left: 10px;
+}
+.flickity-prev-next-button.next {
+  right: 10px;
+}
+/* right to left */
+.flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px;
+}
+.flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px;
+}
+
+.flickity-prev-next-button .flickity-button-icon {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+/* ---- page dots ---- */
+
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.flickity-rtl .flickity-page-dots {
+  direction: rtl;
+}
+
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: $primary-color;
+  border-radius: 50%;
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.flickity-page-dots .dot.is-selected {
+  opacity: 1;
+}
+
+.is-selected {
+  width: 100%;
+}
+
+// 1 -> 0.65
+
+.MuiButton-contained.Mui-disabled {
+  background-color: $primary-disabled !important;
+  color: $white-color-disabled !important;
+  opacity: 1 !important;
+}
+
+.right-arrow-white-user-analyst {
+  position: relative;
+  top: 28px;
+  width: 18px;
+  color: $white-color;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.MuiBottomNavigation-root {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 -3px 10px 0 rgba(158, 158, 158, 0.16);
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  // padding-top: 16px;
+}
+
+.MuiBottomNavigationAction-root.Mui-selected {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.MuiBottomNavigationAction-root {
+  padding: 10px 10px 8px !important;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.analyst-image {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 2px 6px 0;
+  padding: 3px;
+}
+
+.signin-span-not-a-member-blue {
+  @include signin;
+  color: $primary-color;
+  font-weight: $font-weight-bold;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.signin-span-not-a-member-black {
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-bold;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.list-group-flush:first-child .list-group-item:first-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.list-group-flush:last-child .list-group-item:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.scrolling {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.fixed-margin-bottom {
+  margin-bottom: 64px;
+}
+
+.blue-border {
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  padding: 10px;
+}
+
+.one-six-blue-light {
+  @include signin;
+  color: $primary-color;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.one-six-black-light {
+  @include signin;
+  color: $secondary-color;
+  font-weight: $font-weight-light;
+  cursor: pointer;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-md;
+    line-height: $line-height-xl;
+  }
+}
+
+.progress {
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px 5px lightgrey;
+  background-color: white;
+}
+
+.list-group-item.active {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  z-index: 0 !important;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  background-color: transparent !important;
+}
+
+.signin-forgot-password-black {
+  @include signin;
+  color: $secondary-color;
+  cursor: pointer;
+  font-weight: $font-weight-light;
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    font-size: $font-size-2-sm;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    font-size: $font-size-2-md;
+    line-height: $line-height-sm;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    font-size: $font-size-2-lg;
+    line-height: $line-height-md;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    font-size: $font-size-2-xl;
+    line-height: $line-height-lg;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    font-size: $font-size-3-xs;
+    line-height: $line-height-xl;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: $font-size-3-sm;
+    line-height: $line-height-xl;
+  }
+}
+
+.analyst-profile-header {
+  position: relative;
+  left: 24px;
+}
+
+.fa-fa-fa {
+  background-color: #fafafa;
+}
+
+.variable-margin-top-minor {
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    margin-top: $margin-top-2-xl;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    margin-top: $margin-top-3-xs;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    margin-top: $margin-top-3-sm;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    margin-top: $margin-top-3-md;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    margin-top: $margin-top-3-lg;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: $margin-top-3-xl;
+  }
+}
+
+.variable-margin-bottom-minor {
+  @media screen and (min-width: 0px) and (max-width: 360px) {
+    margin-bottom: $margin-bottom-2-xl;
+  }
+  @media screen and (min-width: 361px) and (max-width: 576px) {
+    margin-bottom: $margin-bottom-3-xs;
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    margin-bottom: $margin-bottom-3-sm;
+  }
+  @media screen and (min-width: 767px) and (max-width: 992px) {
+    margin-bottom: $margin-bottom-3-md;
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    margin-bottom: $margin-bottom-3-lg;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: $margin-bottom-3-xl;
+  }
+}
+
+.col {
+  padding-right: 8px !important;
+  padding-left: 8px !important;
+}
+
+.tabs .MuiBox-root {
+  padding: 5px !important;
+}
+
+////////////////////// CUSTOM FILE INPUT /////////////////////////////
+.file {
+  position: relative;
+  border-bottom: 1px solid #949494;
+  margin-top: 3px;
+  width: 90%;
+  height: 1rem;
+}
+.file label {
+  //background: #fff;
+  padding: 5px 20px;
+  color: black;
+  font-weight: bold;
+  font-size: 0.9em;
+  transition: all 0.4s;
+  position: absolute;
+  top: 5px;
+  left: -17px;
+}
+.file input {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  opacity: 0.01;
+  width: 30px;
+}
+.file .icon {
+  color: rgb(41, 98, 255);
+  position: absolute;
+  top: 6px;
+  right: 0px;
+}
+
+.file .counter {
+  background-color: rgb(41, 98, 255);
+  position: absolute;
+  top: 6px;
+  right: 23px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  //background: #000
+}
+///////////////// Expansion Panel UI ////////////////////////
+
+.custom-expansion .WithStyles\(ForwardRef\(ExpansionPanel\)\)-root-147 {
+  border: none !important;
+}
+.MuiExpansionPanelSummary-root {
+  padding: 0px !important;
+}
+.WithStyles\(ForwardRef\(ExpansionPanelSummary\)\)-content-154.WithStyles\(ForwardRef\(ExpansionPanelSummary\)\)-expanded-155 {
+  margin: 0 !important;
+}
+.MuiExpansionPanelSummary-content {
+  margin: 0 !important;
+}
+.MuiExpansionPanelDetails-root {
+  display: block !important;
+}
+
+.custom-radio {
+  margin-bottom: 0px;
+}
+#auto-suggest {
+  height: 70px !important;
+}
+
+#downshift-simple-menu {
+  max-height: 250px !important;
+  overflow-y: scroll;
+  border: 1px solid #ebebeb;
+  width: 100%;
+}
+
+// charts css
+
+#cashChart text {
+  fill: black !important;
+}
+#intradayChart text {
+  fill: black !important;
+}
+
+// Interests css
+.screen-end-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.screen-end-container button {
+  width: 100%;
+}
+.no-border-radius {
+  border-radius: 0 !important;
+}
+.content-holder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36.5px;
+  overflow-y: touch;
+  height: calc(100vh - 36.5px);
+  margin-bottom: 36.5px;
+}
+#interests-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.preference {
+  margin: 0;
+  padding: 0 24px;
+  margin-right: 12px;
+  margin-top: 16px;
+  border: 1px solid black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#kite-close {
+  top: 18px !important;
+  right: 18px !important;
+  color: #2962ff !important;
+  font-size: 30px !important;
+}
+.smaller {
+  font-size: 12px;
+}
+.smallest {
+  font-size: 10px;
+}
+.MuiExpansionPanelSummary-root {
+  min-height: 0 !important;
+}
+
+.ticker-wrap {
+  position: fixed;
+  bottom: 4rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 2rem;
+  background-color: #e41b17;
+  box-sizing: content-box;
+}
+
+.ticker-wrap .ticker {
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  white-space: nowrap;
+  padding-right: 100%;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+}
+
+.ticker-wrap .ticker__item {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: qrem;
+  color: white;
+}
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/*********************************** Material UI button primary color **************************/
+// .MuiButton-containedPrimary {
+//   background-color: #565ebf !important;
+// }
+
+// .MuiButton-textPrimary {
+//   color: #565ebf !important;
+// }

@@ -1,0 +1,60 @@
+@import '../../index.scss';
+
+.fullSection {
+  height: 92vh;
+  overflow: auto;
+}
+
+.labels {
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+}
+
+.scripNameLabel {
+  font-size: 1.2rem !important;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.varietyButtons {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  color: #616161 !important;
+  border: 0.04rem solid #eeeeee !important;
+  border-radius: 1rem !important;
+}
+
+.varietyDisabledButtons {
+  background-color: #eeeeee !important;
+  color: #616161 !important;
+}
+
+.submitButtons {
+  height: 3rem;
+  width: 100%;
+  border-radius: 1rem !important;
+  border-width: 0 !important;
+  text-transform: uppercase !important;
+  padding: 0 !important;
+  font-size: 1rem !important;
+  color: white !important;
+}
+
+.disabledBuyButton {
+  background-color: #80a2ff !important;
+}
+
+.disabledSellButton {
+  background-color: #f98e86 !important;
+}
+
+.buyButton {
+  background-color: #2962ff !important;
+}
+
+.sellButton {
+  background-color: #f44336 !important;
+}
+
+.rounded-pill {
+  border-radius: 1rem !important;
+}

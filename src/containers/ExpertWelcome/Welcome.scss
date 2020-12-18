@@ -1,0 +1,10 @@
+.otpSubmit .Mui-disabled {
+  color: #565ebf !important;
+  background-color: #fff !important;
+  border: 1px solid #565ebf !important;
+}
+
+.form-control:focus {
+  border-color: rgb(206, 212, 218);
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}

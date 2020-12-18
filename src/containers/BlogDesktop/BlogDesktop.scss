@@ -1,0 +1,60 @@
+.banner-image{
+    width: 100%
+}
+.banner-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 8px;
+}
+.banner-text .bg{
+    background-color: #f2f3ff;
+    padding: 24px !important;
+}
+.react-multiple-carousel__arrow--right{
+    background-color: #54e2b1 !important;
+    right: 0 !important;
+}
+.react-multiple-carousel__arrow--left{
+    background-color: #b1aec1 !important;
+    left: 0 !important;
+}
+.react-multi-carousel-dot button{
+    border: 0 !important;
+    background-color: #303030 !important;
+    opacity: 0.4 !important;
+}
+.react-multi-carousel-dot--active button{
+    opacity: 1 !important;
+}
+.react-multi-carousel-item{
+    box-sizing: border-box !important;
+    padding: 0 3vw !important;
+}
+.custom-card{
+    border: 0;
+    // box-shadow: 0 4px 8px 0 #30303040;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 75px !important;
+}
+a, a:hover{
+    color: black;
+    text-decoration: none;
+}
+.sidebar{
+    padding: 0 40px !important;
+}
+.content img{
+    width: 100%;
+    padding: 50px;
+}
+.tag{
+    padding: 3px 12px;
+    border: 1px solid black;
+    border-radius: 28px;
+    margin: 6px 6px 6px 0;
+}
+
+.comment-row{
+    border-bottom: 1px solid #30303080;
+}

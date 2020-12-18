@@ -1,0 +1,44 @@
+[
+    {
+        "analyst_name":"Anna Jonnes",
+        "trade_type":"Intraday",
+        "annualised_return":25,
+        "min_capital": 3000,
+        "max_drawdown":-10,
+        "sebi_registered":true
+    },
+    {
+        "analyst_name":"Anna Jonnes",
+        "trade_type":"Intraday",
+        "annualised_return":-25,
+        "min_capital": 3000,
+        "max_drawdown":-10,
+        "sebi_registered":false
+    },
+    {
+        "analyst_name":"Anna Jonnes",
+        "trade_type":"Intraday",
+        "annualised_return":-25,
+        "min_capital": 3000,
+        "max_drawdown":-10,
+        "sebi_registered":true
+    },
+    {
+        "analyst_name":"Anna Jonnes",
+        "trade_type":"Intraday",
+        "annualised_return":25,
+        "min_capital": 3000,
+        "max_drawdown":-10,
+        "sebi_registered":true
+    },
+    {
+        "analyst_name":"Anna Jonnes",
+        "trade_type":"Intraday",
+        "annualised_return":-25,
+        "min_capital": 3000,
+        "max_drawdown":-10,
+        "sebi_registered":true
+    }
+]
+
+"https://api.myjson.com/bins/rtjky"

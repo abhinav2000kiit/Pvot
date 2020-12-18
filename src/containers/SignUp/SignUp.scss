@@ -1,0 +1,30 @@
+@import "../../index.scss";
+
+.signup-terms-condition-fontsize{
+        cursor: pointer;
+           @media screen and (min-width: 0px) and (max-width: 360px) {
+             font-size: 10px ;
+            //  line-height: $line-height-sm;
+          }
+          @media screen and (min-width: 361px) and (max-width: 576px) {
+             font-size: 12px ;
+            //  line-height: $line-height-sm;
+          }
+          @media screen and (min-width: 577px) and (max-width: 768px) {
+             font-size: $font-size-2-lg;
+            //  line-height: $line-height-md;
+          }
+          @media screen and (min-width: 767px) and (max-width: 992px) {
+             font-size: $font-size-2-xl;
+            //  line-height: $line-height-lg;
+          }
+          @media screen and (min-width: 993px) and (max-width: 1200px) {
+             font-size: $font-size-3-xs;
+            //  line-height: $line-height-xl;
+          }
+          @media screen and (min-width: 1200px) {
+             font-size: $font-size-3-sm;
+            //  line-height: $line-height-xl;
+          }
+     
+}

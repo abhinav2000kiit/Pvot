@@ -1,0 +1,51 @@
+h5{
+    font-weight: bold;
+}
+.intro-text{
+    color: black
+}
+.detail img{
+    margin: 12px 0;
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: white;
+}
+.custom-card{
+    border: 0;
+    box-shadow: 0 4px 8px #30303040;
+}
+.tags{
+    padding: 0 !important;
+}
+.tag{
+    padding: 3px 12px;
+    background-color: #2962ff40;
+    border-radius: 14px;
+    margin: 6px 6px 6px 0;
+}
+.lighter{
+    opacity: 0.7;
+    text-align: justify;
+}
+.comment-row{
+    border-top: 1px solid #30303020;
+}
+.card-list img{
+    width: 100%;
+    height: auto;
+}
+.backButton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width:50px;
+    background-color: #00000040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}

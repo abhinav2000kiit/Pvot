@@ -1,0 +1,14 @@
+.save{
+    background-color: #2962FF;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid #2962FF;
+}
+.cancel{
+    color: #2962FF;
+    border: 1px solid;
+    height: 40px;
+    border-radius: 20px;
+    background-color: transparent;
+}

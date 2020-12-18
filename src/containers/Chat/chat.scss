@@ -1,0 +1,46 @@
+@import '../../index.scss';
+
+.chat-send {
+  position: fixed;
+  bottom: 0%;
+  background-color: white;
+  z-index: 1;
+  margin-top: 10px;
+  padding-bottom: 1px !important;
+  border-top: 2px solid rgb(233, 233, 233);
+}
+
+.chat-text {
+  height: 20px;
+  padding-left: 1rem !important;
+  margin-top: 1.15rem !important;
+  width: 108vw !important;
+}
+
+.chat-button {
+  height: 42px;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgb(99, 99, 99) !important;
+}
+
+.received-message {
+  background-color: white;
+  border: 1px solid rgb(233, 233, 233);
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+  margin-top: 1rem;
+  box-shadow: 4px 4px 3px lightgrey;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.sent-message {
+  margin-left: 1.5rem !important;
+  border: 1px solid #0676ee;
+  margin-right: 1.5rem !important;
+  margin-top: 1rem;
+  box-shadow: -4px 4px 3px lightgrey;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
